@@ -1,0 +1,21 @@
+{
+  "validUser": {
+    "username": "standard_user",
+    "password": "secret_sauce"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "wrong_password"
+  },
+  "loginErrorMessage": "Epic sadface: Username and password do not match any user in this service",
+  "customerData": {
+    "firstName": "John",
+    "lastName": "Doe",
+    "postalCode": "12345"
+  },
+  "orderConfirmationMessage": "Thank you for your order!",
+  "cheapestItems": [
+    "Sauce Labs Onesie",
+    "Sauce Labs Bike Light"
+  ]
+}
