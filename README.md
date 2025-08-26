@@ -13,5 +13,5 @@ A robust, scalable, and maintainable end-to-end test automation framework for Sa
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/AmrRamadan87/playwright-sauce-demo
 cd playwright-saucedemo-framework
