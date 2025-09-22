@@ -33,11 +33,11 @@ export default class CartPage {
     for (let i = 0; i < expectedItems.length; i++) {
       const expectedItem = expectedItems[i];
       const itemElement = cartItemElements[i];
-      
+
       const actualName = await itemElement.locator('.inventory_item_name').innerText();
       const actualPriceText = await itemElement.locator('.inventory_item_price').innerText();
       const actualPrice = parseFloat(actualPriceText.replace('$', ''));
-      
+
       expect(actualName).toBe(expectedItem.name);
       expect(actualPrice).toBe(expectedItem.price);
     }
